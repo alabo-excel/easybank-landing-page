@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+#header {
+    text-transform: capitalize;
+}
+
+header {
+    background-color: white;
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+}
+
+#header div span {
+    padding: 20px;
+}
+
+#invite {
+    margin-right: 60px;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+#invite2 {
+    margin-right: 60px;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero {
+    height: 80vh;
+}
+
+#illustration {
+    width: 110%;
+    position: relative;
+    right: -10px;
+    top: -60px;
+}
+
+#mockups {
+    width: 100%;
+    position: relative;
+    top: -590px;
+    right: -130px;
+}
+
+.hero {
+    z-index: 1;
+}
+
+header img {
+    height: 20px;
+    margin-left: 140px;
+}
+
+.next {
+    margin-left: 150px;
+    padding-top: 200px;
+}
+
+.next2 {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 120px;
+    max-width: 100%;
+}
+
+#img {
+    width: 240px;
+    margin-left: -10px;
+    height: 180px;
+}
+
+footer {
+    text-transform: capitalize;
+}
+
+.next3 {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 30px;
+    max-width: 100%;
+}
+
+@media(max-width: 400px) {
+    #header div {
+        display: none;
+    }
+    #invite {
+        display: none;
+    }
+    .next {
+        margin-left: 20px;
+        margin-right: 20px;
+        order: 1;
+        padding-top: 0px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    #illustration {
+        max-width: 100%;
+        left: -30px;
+        top: 0px;
+    }
+    #mockups {
+        top: -350px;
+        right: 0px;
+        width: 90%;
+        margin: 20px;
+    }
+    .col-lg-6 {
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .next2 {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .hero {
+        height: 60vh;
+        text-align: center!important;
+    }
+    .next3 {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 30px;
+        max-width: 100%;
+        text-align: center;
+    }
+}
